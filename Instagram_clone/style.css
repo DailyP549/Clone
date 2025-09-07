@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+/* googlre fonts */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Sergoe UI',Roboto,Helvetica,Arial sans-serif;
+}
+body{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+/* instagram */
+.instagram{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+
+}
+.left_b{
+    width: 20%;
+    height: 100vh;
+    border-right: 1px solid #504949;
+    /* background-color: rgb(173, 29, 142); */
+}
+#logo{
+font-family: 'Lobster', cursive;
+font-size: 29px;
+}
+.left_b .items{
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    font-size: 16px;
+    margin: 6px;
+}
+.left_b .items .material-symbols-outlined{
+    margin-right: 27px;
+}
+.post{
+    width: 55%;
+    height: 100vh;
+
+    /* background-color: rgb(25, 26, 26); */
+}
+.post .story{
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+    margin: 10px;
+}
+.post .story .items{
+    display: flex;
+    justify-content: center;
+    align-items: center; margin: 10px;
+    font-size: 12px;
+   
+    font-weight: 200;
+}
+.post .story .items .profile{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.post .story .items .profile .img{
+   
+    
+    border-radius: 50%;
+    background-image:conic-gradient(#feda75,#fa7e1e,#d62976,#962fbf,#4f5bd5,#feda75) ;
+    padding: 2px;
+    display: inline-block;
+    
+}
+.post .story .items .profile .img img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    padding: 3px;
+
+}
+.post .main_post{
+    height: 75vh;
+    width: 70%;
+    margin: auto;
+}
+.post .main_post .profile{
+    margin: 10px;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.post .main_post .profile img{
+    width: 40px;
+    height: 40px
+    ;border-radius: 50%;
+    padding: 2px;
+    box-sizing: border-box;
+display: inline-block;
+ background-image:conic-gradient(#feda75,#fa7e1e,#d62976,#962fbf,#4f5bd5,#feda75) ;
+   
+}
+.profile{
+    margin-left: -20px;
+}
+
+.post .main_post .img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.post .main_post .img img{
+    height: auto;
+    width: 100%;
+    border-radius: 10px;
+}.post .main_post .engagement .left{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.post .main_post .engagement .material-symbols-outlined{
+    font-size: 1.8em;
+}
+.post .main_post .engagement{
+    margin:10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* seggetions ecyion */
+
+.suggestion_section{
+    width: 25%;
+    height: 100vh;
+    /* background-color: crimson; */
+}
+.suggestion_section .suggestion{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 14px;
+}
+.suggestion_section .profile .img img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.suggestion_section .profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.suggestion_section .suggestion .follow{
+    color: blueviolet;
+}
+.suggestion_section .suggestion .profile p{
+    color:#bcbab7;
+}.suggestion_section .suggestion .see{
+    color:white
+}
+
+.m{
+    margin: 40px;
+}
